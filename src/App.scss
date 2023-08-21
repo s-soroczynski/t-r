@@ -1,11 +1,22 @@
-// Original class: 1
-.App-class-0 {}
+.App-class-0 {
+  @apply mx-22;
+}
 
-// Original class: 2
-.App-class-1 {}
+.App-class-0 {
+  @apply mx-20;
+  @media (max-width: 768px) {
+    @apply mx-20;
+  }
+}
 
-// Original class: 3
-.App-class-2 {}
+.App-class-1 {
+  @apply mx-42;
+}
 
-// Original class: 4
-.App-class-3 {}
+.App-class-2 {
+  @apply mx-62;
+}
+
+.App-class-3 {
+  @apply mx-82;
+}
